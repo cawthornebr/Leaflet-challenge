@@ -3,12 +3,6 @@ body {
   margin: 0;
 }
 
-#map,
-body,
-html {
-  height: 100%;
-}
-
 .leaflet-popup-content {
   text-align: center;
 }
@@ -24,6 +18,11 @@ html {
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+#map,
+body,
+html {
+  height: 100%;
+}
 
 .legend ul {
   padding: 0;
@@ -38,6 +37,9 @@ html {
   height: 22px;
 }
 
+h1 {
+  text-align: center;
+}
 .legend .min {
   float: left;
   padding-bottom: 5px;
@@ -45,8 +47,4 @@ html {
 
 .legend .max {
   float: right;
-}
-
-h1 {
-  text-align: center;
 }

@@ -3,7 +3,7 @@ var myMap;
 var link2 = "data/Plates.geojson";
 
 d3.json(link2,function(response){
-    //console.log(response);
+
     plates = L.geoJSON(response,{  
         style: function(feature){
             return {
